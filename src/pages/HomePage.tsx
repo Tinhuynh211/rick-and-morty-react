@@ -1,7 +1,7 @@
 // src/components/Page.tsx
 import React from "react";
-import Header from "../components/Header";
-import CharacterList from "../components/CharacterList";
+import Header from "../components/Header/Header";
+import CharacterList from "../components/Character/CharacterList";
 
 const Page: React.FC = () => {
   return (
