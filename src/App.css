@@ -45,8 +45,6 @@ body {
   padding: 0;
 }
 
-
-
 header {
   background-color: #282c34;  
   color: white;              
@@ -59,8 +57,6 @@ header {
   position: relative;       
   margin-bottom: 20px;       
 }
-
-
 
 .character-list {
   display: flex;
@@ -110,7 +106,6 @@ header {
   color: #333;
 }
 
-
 .character-item {
   background-color: #ffcdd2; 
   border: 2px solid #333;    
@@ -123,7 +118,6 @@ header {
   padding: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng hover */
 }
-
 
 .character-item:hover {
   transform: scale(1.05);  /* Phóng to nhẹ khi hover */
