@@ -33,7 +33,13 @@ const CharacterList: React.FC = () => {
     }
   };
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) {
+    return (
+      <div className="loading-container">
+        <div className="spinner"></div>
+      </div>
+    );
+  }
   if (error) return <p>{error}</p>;
 
   return (
